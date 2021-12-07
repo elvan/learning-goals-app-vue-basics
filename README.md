@@ -1,1 +1,1 @@
-# task-list-app-vue-syntax
+# task-list-app-vue-basics
