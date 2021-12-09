@@ -1,1 +1,1 @@
-# task-list-app-vue-basics
+# learning-goals-app-vue-basics
