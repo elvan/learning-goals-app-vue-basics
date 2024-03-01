@@ -11,56 +11,58 @@ body {
 }
 
 header {
-  width: 90%;
-  max-width: 40rem;
-  margin: 3rem auto;
+  margin: 3rem;
   padding: 1rem;
   border-radius: 10px;
   color: white;
   text-align: center;
-  background-color: #4fc08d;
+  background-color: #1b995e;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
-#user-goal {
-  width: 90%;
-  max-width: 40rem;
-  margin: 3rem auto;
+#user-goals {
+  margin: 3rem;
   padding: 1rem;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
-#user-goal h2 {
+#user-goals h2 {
   margin: 0 0 1rem 0;
   border-bottom: 4px solid #ccc;
-  color: #4fc08d;
+  color: #1b995e;
   font-size: 2rem;
 }
 
-#user-goal p {
-  padding: 0.5rem;
-  border: 1px solid #4fc08d;
-  border-radius: 25px;
-  color: white;
-  font-weight: bold;
-  font-size: 1.25rem;
-  background-color: #4fc08d;
+#user-goals ul {
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
 }
 
-#user-goal input {
+#user-goals li {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 25px;
+  color: #1f1f1f;
+  font-weight: bold;
+  font-size: 1.25rem;
+  background-color: #8ddba4;
+}
+
+#user-goals input {
   border: 1px solid #ccc;
   font: inherit;
 }
 
-#user-goal input:focus {
+#user-goals input:focus {
   border-color: #1b995e;
   outline: none;
   background-color: #d7fdeb;
 }
 
-#user-goal button {
+#user-goals button {
   padding: 0.05rem 1rem;
   border: 1px solid #ff0077;
   color: white;
@@ -70,8 +72,8 @@ header {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
 }
 
-#user-goal button:hover,
-#user-goal button:active {
+#user-goals button:hover,
+#user-goals button:active {
   border-color: #ec3169;
   background-color: #ec3169;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
